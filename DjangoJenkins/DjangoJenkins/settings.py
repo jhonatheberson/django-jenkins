@@ -31,12 +31,12 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-PROJECT_APPS = (‘MyApp’
-                )
+PROJECT_APPS = ['MyApp'
+                ]
 
-JENKINS_TASKS = (‘django_jenkins.tasks.run_pep8’,
-                 ‘django_jenkins.tasks.run_pyflakes’
-                 )
+JENKINS_TASKS = ['django_jenkins.tasks.run_pep8',
+                 'django_jenkins.tasks.run_pyflakes',
+                 ]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
